@@ -157,23 +157,34 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  color: white;
   width: 100%;
 }
 
 h2 {
   text-align: center;
-  color: #fff;
 }
 
 p {
   text-align: center;
-  color: #fff;
   margin: 1rem;
 }
 
 ul {
   padding: 0;
+}
+
+footer {
+  background-color: #e3a245;
+  color: #fff;
+}
+
+.work {
+  filter: grayscale(1);
+  transition: filter .5s ease-in-out;
+}
+
+.work:hover {
+  filter: grayscale(0);
 }
 
 .wordmark {
