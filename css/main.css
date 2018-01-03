@@ -195,7 +195,6 @@ footer {
 
 .space {
   max-width: 500px;
-  max-height: 334px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -203,8 +202,6 @@ footer {
 .video {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
 }
 
 .video iframe {
