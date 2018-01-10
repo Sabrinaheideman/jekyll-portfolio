@@ -252,12 +252,16 @@ footer {
   transform-origin: center 165px;
 }
 
-.venus {
-  width: 4%;
-  height: 4%;
-  display: block;
-  margin: auto;
-}
+/*.venus {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 150px;
+  width: 65px;
+  height: 65px;
+  animation: orbit 5s linear infinite;
+  transform-origin: center 100px;
+
+}*/
 
 .earth {
   width: 4.5%;
