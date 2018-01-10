@@ -162,6 +162,10 @@ p {
   text-align: center;
 }
 
+.text {
+  padding: 2rem;
+}
+
 ul {
   padding: 0;
 }
@@ -283,5 +287,10 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .text {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 
 }
