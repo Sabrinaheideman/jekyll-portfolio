@@ -1,0 +1,3 @@
+Sitemap: https://sheideman.ca/sitemapx.xml
+
+User-agent: *

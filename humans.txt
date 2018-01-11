@@ -1,0 +1,26 @@
+# humantxt.org
+
+# TEAM
+
+Designer & Deeveloper: Sabrina Heideman <sheideman_design@fastmail.com>
+Site: http://sheideman.ca
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Thomas J Bradley
+Ashley Couperus
+Marie Scharfe
+
+---
+
+#TECHNOLOGY
+
+## Software
+
+- GitHub
+- Jekyll
+
+## Hosting
