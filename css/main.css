@@ -162,10 +162,6 @@ p {
   text-align: center;
 }
 
-.text {
-  padding: 2rem;
-}
-
 ul {
   padding: 0;
 }
@@ -175,6 +171,7 @@ footer {
   color: #fff;
   margin-top: 1rem;
 }
+
 
 .work {
   filter: grayscale(1);
@@ -193,14 +190,12 @@ footer {
   padding-top: 1em;
 }
 
-.about p {
-  text-align: left;
-}
 
 .space {
-  max-width: 500px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
 
 .video {
@@ -237,7 +232,7 @@ footer {
 
 .solarsystem-wrapper {
   position: relative;
-  padding-top: 5rem;
+  padding-top: 80px;
 }
 
 .sun {
@@ -257,22 +252,8 @@ footer {
   transform-origin: center 165px;
 }
 
-/*.venus {
-  position: absolute;
-  left: calc(50% - 25px);
-  top: 150px;
-  width: 65px;
-  height: 65px;
-  animation: orbit 5s linear infinite;
-  transform-origin: center 100px;
-
-}*/
-
-.earth {
-  width: 4.5%;
-  height: 4.5%;
-  display: block;
-  margin: auto;
+.tiny {
+  font-size: 12px;
 }
 
 @keyframes orbit {
@@ -287,11 +268,53 @@ footer {
 
 }
 
+.page404text {
+  padding-top: 80px;
+}
+
+
+
+@media only screen and (min-width: 25em) {
+
+  .text {
+  text-align: justify;
+  padding: 0 1em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .text {
+  text-align: justify;
+  padding: 0 2em;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .text {
-    padding-left: 10rem;
-    padding-right: 10rem;
+  text-align: justify;
+  padding: 0 4em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .text {
+  text-align: justify;
+  padding: 0 10em;
+  }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+  .text {
+  text-align: justify;
+  padding: 0 20em;
   }
 
 }
